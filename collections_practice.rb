@@ -50,4 +50,6 @@ def count_elements(array)
     names << hash[:name]
   end
 
+  binding.pry
+
 end
