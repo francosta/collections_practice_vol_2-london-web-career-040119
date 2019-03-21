@@ -68,6 +68,10 @@ def merge_data(keys, data)
 
   new_array = []
 
+  keys.each do |hash|
+    binding.pry
+  end
+
   binding.pry
 
 end
