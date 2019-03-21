@@ -45,6 +45,7 @@ end
 def count_elements(array)
 
   names = []
+  names_unique = []
 
   array.each do |hash|
     names << hash[:name]
