@@ -60,6 +60,6 @@ def count_elements(array)
     new_array.push({:name => name, :count => names.count(name)})
   end
 
-binding.pry
+new_array
 
 end
