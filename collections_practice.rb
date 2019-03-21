@@ -48,6 +48,7 @@ def count_elements(array)
 
   array.each do |hash|
     binding.pry
+    names << hash[:name]
   end
 
 end
