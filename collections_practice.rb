@@ -44,6 +44,8 @@ end
 
 def count_elements(array)
 
+  names = []
+
   array.each do |hash|
     binding.pry
   end
