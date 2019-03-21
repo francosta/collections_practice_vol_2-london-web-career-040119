@@ -71,7 +71,7 @@ def merge_data(keys, data)
 
   keys.each do |hash|
     binding.pry
-
+    new_hash.merge(hash)
   end
 
   binding.pry
