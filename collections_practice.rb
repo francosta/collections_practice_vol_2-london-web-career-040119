@@ -70,7 +70,7 @@ def merge_data(keys, data)
   new_hash = {}
 
   keys.each do |hash|
-    new_array.push(element)
+    new_array.push(hash)
     binding.pry
   end
 end
