@@ -54,11 +54,10 @@ def count_elements(array)
     end
   end
 
-  binding.pry
-
   new_array = []
 
   names_unique.each do |name|
+    binding.pry
   end
 
 end
