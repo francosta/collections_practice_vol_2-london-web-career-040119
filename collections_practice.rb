@@ -58,4 +58,7 @@ def count_elements(array)
 
   new_array = []
 
+  names_unique.each do |name|
+  end
+
 end
