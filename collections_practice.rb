@@ -51,6 +51,7 @@ def count_elements(array)
     names << hash[:name]
     if names_unique.count(hash[:name]) == 0
       names_unique << hash[:name]
+    end
   end
 
   binding.pry
