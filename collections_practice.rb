@@ -49,6 +49,8 @@ def count_elements(array)
 
   array.each do |hash|
     names << hash[:name]
+    if names_unique.count(hash[:name]) == 0
+      names_unique << hash[:name]
   end
 
   binding.pry
