@@ -66,6 +66,8 @@ end
 
 def merge_data(keys, data)
 
+  new_array = []
+
   binding.pry
 
 end
