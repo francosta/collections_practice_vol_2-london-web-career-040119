@@ -46,7 +46,7 @@ def count_elements(array)
 
   names = []
 
-  array.each do |hash
+  array.each do |hash|
     names << hash[:name]
   end
 
