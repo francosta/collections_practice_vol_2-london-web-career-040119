@@ -57,8 +57,7 @@ def count_elements(array)
   new_array = []
 
   names_unique.each do |name|
-    new_array.push({:name => name, :count => names.count(name)})e => name, :count => names.count(name)})
-  end
+    new_array.push({:name => name, :count => names.count(name)})
     binding.pry
   end
 
