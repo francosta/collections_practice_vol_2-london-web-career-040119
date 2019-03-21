@@ -72,5 +72,6 @@ def merge_data(keys, data)
   keys.each do |hash|
     binding.pry
     new_array = new_array.push(hash)
+    binding.pry
   end
 end
