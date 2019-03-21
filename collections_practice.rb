@@ -2,6 +2,10 @@ require 'pry'
 
 def begins_with_r(array)
 
+  array.each do |word|
+    binding.pry
+  end
+
   array.each {|word| if word[0] != "r" then return false end}
   true
 
@@ -43,5 +47,5 @@ end
 =end
 
 def count_elements(array)
-
+  
 end
