@@ -67,9 +67,11 @@ end
 def merge_data(keys, data)
 
   new_array = []
+  new_hash = {}
 
   keys.each do |hash|
     binding.pry
+    
   end
 
   binding.pry
